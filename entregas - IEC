@@ -1,0 +1,446 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "mount_file_id": "1OmbJ4kUseF4not0aM_03Nu-QrCM4Rjo7",
+      "authorship_tag": "ABX9TyOf2YiprujmnJK4RaimWl99",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hpolizelclara/iec2023_1_AeB/blob/main/entregas%20-%20IEC\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#**Iniciando Python na vida!**"
+      ],
+      "metadata": {
+        "id": "wRXsizxHyKSw"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#**Operadores aritiméticos**"
+      ],
+      "metadata": {
+        "id": "EMHlyL8d1N6L"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#adição\n",
+        "1+1\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PjA3XQPk0Vwt",
+        "outputId": "ef93edb8-4be9-4d26-d7ae-c48b2a2c3520"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "2"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#subtração\n",
+        "1-1\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lxvesOv70hbi",
+        "outputId": "9efd65f9-fa4b-4218-a036-4f0961d34874"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#multiplicação\n",
+        "2*2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "baMFrYs00kaS",
+        "outputId": "aec11c9d-e3bd-40bd-cbd1-cfec9373644e"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "4"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#divisão\n",
+        "2/2\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0ApeDzJo0piS",
+        "outputId": "dfcafd1d-2a21-414d-bd27-adc6e726551d"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "1.0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#potência\n",
+        "2**3"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q4k6BrWD0uR6",
+        "outputId": "383b6de6-44b9-4bc4-940c-edbc46a277fa"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "8"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#módulo (resto da divisão)\n",
+        "10%3\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "E3UmyYLy0zdS",
+        "outputId": "4545959b-0f0e-43af-fa6b-a925d57b354f"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "1"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 13
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Tipos de dados**"
+      ],
+      "metadata": {
+        "id": "owwEp4TF1rtq"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#qual o tipo do (?) -> inteiro\n",
+        "type(5)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "miuc7JCy1Aip",
+        "outputId": "aa3bbac3-887a-4b68-b567-e679e15e0ffd"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "int"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#qual o tipo do (?) -> float\n",
+        "type(5.0)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "J1rfwoHE1h7A",
+        "outputId": "8c9bc07c-5417-47b4-e908-505fc05cbf0f"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "float"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 15
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#qual o tipo do (?) -> string\n",
+        "type('estude!')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9E-PaeVF1k6A",
+        "outputId": "c08b3853-275e-4208-c839-953593b1c04d"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "str"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 16
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Condicionais**"
+      ],
+      "metadata": {
+        "id": "ZU-vcUcU199x"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#condicional if...else\n",
+        "if 5>2:\n",
+        "  print('A sentença é verdadeira!')\n",
+        "else:\n",
+        "  print('A sentença é falsa!')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aBrDyedL2Bqv",
+        "outputId": "ff8e83fb-ba38-41c2-cb9f-02c6f9159d14"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A sentença é falsa!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#condicional if...else com variável\n",
+        "dia = \"Quarta-feira\"\n",
+        "if dia == \"Sexta feira\":\n",
+        "  print(\"Hoje fará sol!\")\n",
+        "else:\n",
+        "  print(\"Hoje vai chover!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QV8xy3162dzn",
+        "outputId": "0e5a2674-6b5d-4777-930e-d248b1bdca20"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hoje vai chover!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Lendo arquivos (.txt)**"
+      ],
+      "metadata": {
+        "id": "8HJZnHca3TDM"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#atribuindo o arquivo para leitura\n",
+        "al = open('/content/drive/MyDrive/IEC/aaaa.txt', \"r\")\n",
+        "#lendo o arquivo\n",
+        "print(al.read())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CBV5BcRP4--J",
+        "outputId": "09cba77c-729f-449f-8752-df58ac6cb8da"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "aaaaaaaaaaaaaaaaaaaaaaaaaa\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#**Gravando arquivos(.txt)**"
+      ],
+      "metadata": {
+        "id": "pqnPaGtW5-X5"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#abrindo o arquivo para gravação\n",
+        "a2 = open('/content/drive/MyDrive/IEC/bomdia.txt', \"w\")\n",
+        "#gravando no arquivo\n",
+        "a2.write('Alterando a mensagem do arquivo!')\n",
+        "#abrindo o arquivo para leitura\n",
+        "a2 = open('/content/drive/MyDrive/IEC/bomdia.txt', \"r\")\n",
+        "#imprimindo arquivo\n",
+        "print(a2.read())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eZrY_lQv6FBP",
+        "outputId": "18917099-77ee-4d1f-cfd8-b98d8a381acd"
+      },
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Alterando a mensagem do arquivo!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "5OkykV498gwk"
+      }
+    }
+  ]
+}
