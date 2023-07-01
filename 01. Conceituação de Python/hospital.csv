@@ -1,0 +1,9 @@
+Id,Nome,Idade,Sexo,Peso,Manchas,Temperatura,Internação,Estado,Time,Diagnóstico
+4201,João,28,M,79,Concentradas,38.0,2,SP,Palmeiras,Doente
+3217,Maria,18,F,67,Inexistentes,39.5,4,MG,Cruzeiro,Doente
+4039,Luiz,49,M,92,Espalhadas,38.0,2,RS,Grêmio,Saudável
+1920,José,18,M,43,Inexistentes,38.5,8,MG,Atlético,Doente
+4340,Cláudia,21,F,52,Uniformes,37.6,1,PE,Sport,Saudável
+2301,Ana,22,F,72,Inexistentes,38.0,3,RJ,Botafogo,Doente
+1322,Marta,19,F,87,Espalhadas,39.0,6,AM,Flamengo,Doente
+3027,Paulo,34,M,67,Uniformes,38.4,2,GO,Vila Nova,Saudável
